@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dicom3tools</id>
+    <title>dicom3tools (Install)</title>
+    <version>1.0.0.201501711</version>
+    <authors>David A. Clunie</authors>
+    <owners>Rickard Holmberg</owners>
+    <summary>Command line utilities for creating, modifying, dumping and validating files of DICOM attributes, and conversion of proprietary image formats to DICOM. Can handle older ACR/NEMA format data, and some proprietary versions of that such as SPI.</summary>
+    <description>
+	
+	Command line utilities for creating, modifying, dumping and validating files of DICOM attributes, and conversion of proprietary image formats to DICOM. Can handle older ACR/NEMA format data, and some proprietary versions of that such as SPI.
+
+	Image format support
+	* DICOM offline file format as per Part 10, and auto-recognition of transfer syntax if no Part 10 meta information header.
+	* Parsing/validating DICOM data sets as modules and IODs.
+	* Creation/merging of DICOM datasets from text descriptions.
+	* Creation of overlays and lookup tables.
+	* Post scout lines, created 3D volumes from slices, orthogonal reprojection.
+	* Build/dump DICOMDIR.
+	* Dump DICOM Structured Reports.
+	* Pbmplus extended 16 bit raw format, and PGX format.
+	* Raw binary images.
+	* Decompress JPEG and deflate transfer syntaxes (using external codecs).
+	
+	Test image generation ...
+	* SMPTE patterns of arbitrary size and bit depth.
+	* Briggs patterns of arbitrary size and bit depth.
+	
+	Proprietary image conversions from ...
+	* General Electric CT High Speed Advantage (Genesis)
+	* General Electric MR Signa 5X (Genesis)
+	* General Electric Advantage Windows
+	* General Electric CT Pace
+	* Picker PQ/IQ CT
+	* Siemens CT Somatom Plus family (Native)(incomplete)
+	* Imatron CT (incomplete)
+	* Shimadzu MR (incomplete)
+    </description>
+    <projectUrl>http://www.dclunie.com/dicom3tools.html</projectUrl>
+    <packageSourceUrl>https://github.com/rickardraysearch/chocolateypackages/tree/master/dicom3tools</packageSourceUrl>
+    <projectSourceUrl>http://www.dclunie.com/dicom3tools/workinprogress/dicom3tools_1.00.snapshot.20150717110018.tar.bz2</projectSourceUrl>
+    <tags>dicom3tools admin dicom medical</tags>
+    <copyright>Copyright (c) 1993-2014, David A. Clunie DBA PixelMed Publishing. All rights reserved.</copyright>
+    <licenseUrl>http://www.dclunie.com/dicom3tools/COPYRIGHT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
