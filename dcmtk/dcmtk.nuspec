@@ -11,7 +11,7 @@
     <description>DCMTK is a collection of libraries and applications implementing large parts the DICOM standard.  It includes software for examining, constructing and converting DICOM image files, handling offline media, sending and receiving images over a network connection, as well as demonstrative image storage and worklist servers. DCMTK is is written in a mixture of ANSI C and C++. It comes in complete source code and is made available as "open source" software.
     </description>
     <projectUrl>http://dcmtk.org/dcmtk.php.en</projectUrl>
-    <packageSourceUrl>https://github.com/rickardraysearch/chocolateypackages/dcmtk</packageSourceUrl>
+    <packageSourceUrl>https://github.com/rickardraysearch/chocolateypackages/tree/master/dcmtk</packageSourceUrl>
     <projectSourceUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk360/dcmtk-3.6.0.zip</projectSourceUrl>
     <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk360/docs/dcmtk-3.6.0-html-help.zip</docsUrl>
     <tags>dcmtk admin dicom medical</tags>
