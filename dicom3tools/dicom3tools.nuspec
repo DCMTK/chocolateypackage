@@ -4,7 +4,7 @@
   <metadata>
     <id>dicom3tools</id>
     <title>dicom3tools</title>
-    <version>1.0.0.201501711</version>
+    <version>1.0.0.20150717</version>
     <authors>David A. Clunie</authors>
     <owners>Rickard Holmberg</owners>
     <summary>Command line utilities for creating, modifying, dumping and validating files of DICOM attributes, and conversion of proprietary image formats to DICOM. Can handle older ACR/NEMA format data, and some proprietary versions of that such as SPI.</summary>
