@@ -7,9 +7,9 @@
     <version>1.0.0.20150717</version>
     <authors>David A. Clunie</authors>
     <owners>Rickard Holmberg</owners>
-    <summary>Command line utilities for dumping and validating files of DICOM attributes.</summary>
+    <summary>Command line utilities for validating the contents of a DICOM file against the DICOM standard.</summary>
     <description>
-Command line utilities for dumping and validating the contents of a DICOM file against the DICOM standard.
+Command line utilities for validating the contents of a DICOM file against the DICOM standard.
 
 Features
 ========
