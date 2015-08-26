@@ -27,7 +27,7 @@ Features
     <packageSourceUrl>https://github.com/rickardraysearch/chocolateypackages/tree/master/dicom3tools</packageSourceUrl>
     <projectSourceUrl>http://www.dclunie.com/dicom3tools/workinprogress/dicom3tools_1.00.snapshot.20150717110018.tar.bz2</projectSourceUrl>
     <tags>dicom3tools admin dicom medical</tags>
-    <copyright>Copyright (c) 1993-2014, David A. Clunie DBA PixelMed Publishing. All rights reserved.</copyright>
+    <copyright>Copyright (c) 1993-2015, David A. Clunie DBA PixelMed Publishing. All rights reserved.</copyright>
     <licenseUrl>http://www.dclunie.com/dicom3tools/COPYRIGHT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
