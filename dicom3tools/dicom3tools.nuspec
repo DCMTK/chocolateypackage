@@ -7,41 +7,21 @@
     <version>1.0.0.20150717</version>
     <authors>David A. Clunie</authors>
     <owners>Rickard Holmberg</owners>
-    <summary>Command line utilities for creating, modifying, dumping and validating files of DICOM attributes, and conversion of proprietary image formats to DICOM. Can handle older ACR/NEMA format data, and some proprietary versions of that such as SPI.</summary>
+    <summary>Command line utilities for dumping and validating files of DICOM attributes.</summary>
     <description>
-Command line utilities for creating, modifying, dumping and validating files of DICOM attributes, and conversion of proprietary image formats to DICOM. Can handle older ACR/NEMA format data, and some proprietary versions of that such as SPI.
+Command line utilities for dumping and validating the contents of a DICOM file against the DICOM standard.
 
-Image format support
-====================
+Features
+========
 
-* DICOM offline file format as per Part 10, and auto-recognition of transfer syntax if no Part 10 meta information header.
-* Parsing/validating DICOM data sets as modules and IODs.
-* Creation/merging of DICOM datasets from text descriptions.
-* Creation of overlays and lookup tables.
-* Post scout lines, created 3D volumes from slices, orthogonal reprojection.
-* Build/dump DICOMDIR.
-* Dump DICOM Structured Reports.
-* Pbmplus extended 16 bit raw format, and PGX format.
-* Raw binary images.
-* Decompress JPEG and deflate transfer syntaxes (using external codecs).
-	
-Test image generation
-=====================
+* Checks attributes in file against requirements of IODs and Modules defined in DICOM PS 3.3 Information Object Definition (dciodvfy)
 
-* SMPTE patterns of arbitrary size and bit depth.
-* Briggs patterns of arbitrary size and bit depth.
+* Checks encoding of data elements and values against encoding rules of the DICOM PS 3.5 Data Structures and Encoding (dciodvfy)
 
-Proprietary image conversions
-=============================
+* Checks data element value representation and multiplicity against data dictionary in DICOM PS 3.6 Data Dictionary (dciodvfy)
 
-* General Electric CT High Speed Advantage (Genesis)
-* General Electric MR Signa 5X (Genesis)
-* General Electric Advantage Windows
-* General Electric CT Pace
-* Picker PQ/IQ CT
-* Siemens CT Somatom Plus family (Native)(incomplete)
-* Imatron CT (incomplete)
-* Shimadzu MR (incomplete)
+* Checks consistency of attributes in multiple files that are supposed to be the same for the same entity in all instances (dcentvfy)
+
     </description>
     <projectUrl>http://www.dclunie.com/dicom3tools.html</projectUrl>
     <packageSourceUrl>https://github.com/rickardraysearch/chocolateypackages/tree/master/dicom3tools</packageSourceUrl>
