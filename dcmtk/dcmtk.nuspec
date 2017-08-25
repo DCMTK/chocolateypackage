@@ -16,6 +16,7 @@
     <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/docs/dcmtk-3.6.2-html-help.zip</docsUrl>
     <tags>dcmtk admin dicom medical</tags>
     <copyright>Copyright (C) 1994-2017, OFFIS e.V. All rights reserved.</copyright>
+    <releaseNotes>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/ANNOUNCE</releaseNotes>
     <licenseUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/COPYRIGHT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
