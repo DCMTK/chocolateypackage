@@ -4,7 +4,7 @@
   <metadata>
     <id>dcmtk</id>
     <title>dcmtk</title>
-    <version>3.6.0</version>
+    <version>3.6.2</version>
     <authors>OFFIS e. V.</authors>
     <owners>Rickard Holmberg</owners>
     <summary>DICOM command line toolkit</summary>
@@ -12,11 +12,11 @@
     </description>
     <projectUrl>http://dcmtk.org/dcmtk.php.en</projectUrl>
     <packageSourceUrl>https://github.com/rickardraysearch/chocolateypackages/tree/master/dcmtk</packageSourceUrl>
-    <projectSourceUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk360/dcmtk-3.6.0.zip</projectSourceUrl>
-    <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk360/docs/dcmtk-3.6.0-html-help.zip</docsUrl>
+    <projectSourceUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/dcmtk-3.6.2.zip</projectSourceUrl>
+    <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/docs/dcmtk-3.6.2-html-help.zip</docsUrl>
     <tags>dcmtk admin dicom medical</tags>
-    <copyright>Copyright (C) 1994-2011, OFFIS e.V. All rights reserved.</copyright>
-    <licenseUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk360/COPYRIGHT</licenseUrl>
+    <copyright>Copyright (C) 1994-2017, OFFIS e.V. All rights reserved.</copyright>
+    <licenseUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/COPYRIGHT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
