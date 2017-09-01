@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dcmtk</id>
-    <title>dcmtk</title>
+    <title>DCMTK - DICOM Toolkit</title>
     <version>3.6.2</version>
     <authors>OFFIS e. V.</authors>
     <owners>Rickard Holmberg</owners>
@@ -14,7 +14,7 @@
     <packageSourceUrl>https://github.com/rickardraysearch/chocolateypackages/tree/master/dcmtk</packageSourceUrl>
     <projectSourceUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/dcmtk-3.6.2.zip</projectSourceUrl>
     <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/docs/dcmtk-3.6.2-html-help.zip</docsUrl>
-    <tags>dcmtk admin dicom medical</tags>
+    <tags>dcmtk dicom medical</tags>
     <copyright>Copyright (C) 1994-2017, OFFIS e.V. All rights reserved.</copyright>
     <releaseNotes>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/ANNOUNCE</releaseNotes>
     <licenseUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk362/COPYRIGHT</licenseUrl>
