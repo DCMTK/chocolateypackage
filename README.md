@@ -1,2 +1,2 @@
 # chocolateypackages
-Various chocolatey package sources
+source of the DCMTK chocolatey package
