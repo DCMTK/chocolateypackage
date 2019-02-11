@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dcmtktls</id>
+    <title>DCMTK TLS Add-On</title>
+    <version>3.6.4</version>
+    <authors>OFFIS e. V.</authors>
+    <owners>OFFIS e. V.</owners>
+    <summary>DICOM command line toolkit OpenSSL add-on</summary>
+    <description>DCMTK supports some of the DICOM security extensions and relies on the free OpenSSL toolkit for the underlying cryptographic routines and the TLS protocol implementation. The following archives contain executable binaries that have been compiled and linked with OpenSSL. Only the DCMTK tools that make use of OpenSSL are included in these archives - please also download the corresponding full binary package. Please note that the use of cryptographic algorithms is affected by legislation and patent issues in many countries - you have to make sure yourself that you are allowed to use these tools before downloading them. DCMTK is is written in a mixture of ANSI C and C++. It comes in complete source code and is made available as "open source" software.
+    </description>
+    <projectUrl>https://dcmtk.org/dcmtk.php.en</projectUrl>
+    <packageSourceUrl>https://github.com/DCMTK/chocolateypackage/tree/master/dcmtktls</packageSourceUrl>
+    <projectSourceUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk364/bin/dcmtk-3.6.4-win32-dynamic-tls.zip</projectSourceUrl>
+    <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/docs/dcmtk-3.6.4-html-help.zip</docsUrl>
+    <tags>dcmtk dicom medical tls</tags>
+    <copyright>Copyright (C) 1994-2018, OFFIS e.V. All rights reserved.</copyright>
+    <releaseNotes>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/ANNOUNCE</releaseNotes>
+    <licenseUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/COPYRIGHT</licenseUrl>
+    <dependencies>
+      <dependency id="vcredist2012"/>
+      <dependency id="dcmtk"/>
+    </dependencies> 
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
