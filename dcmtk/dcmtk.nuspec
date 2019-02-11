@@ -10,7 +10,7 @@
     <summary>DICOM command line toolkit</summary>
     <description>DCMTK is a collection of libraries and applications implementing large parts the DICOM standard.  It includes software for examining, constructing and converting DICOM image files, handling offline media, sending and receiving images over a network connection, as well as demonstrative image storage and worklist servers. DCMTK is is written in a mixture of ANSI C and C++. It comes in complete source code and is made available as "open source" software.
     </description>
-    <projectUrl>http://dcmtk.org/dcmtk.php.en</projectUrl>
+    <projectUrl>https://dcmtk.org/dcmtk.php.en</projectUrl>
     <packageSourceUrl>https://github.com/DCMTK/chocolateypackage/tree/master/dcmtk</packageSourceUrl>
     <projectSourceUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/dcmtk-3.6.4-win32-dynamic.zip</projectSourceUrl>
     <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/docs/dcmtk-3.6.4-html-help.zip</docsUrl>
@@ -18,6 +18,9 @@
     <copyright>Copyright (C) 1994-2018, OFFIS e.V. All rights reserved.</copyright>
     <releaseNotes>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/ANNOUNCE</releaseNotes>
     <licenseUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/COPYRIGHT</licenseUrl>
+    <dependencies>
+      <dependency id="vcredist2012"/>
+    </dependencies>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
