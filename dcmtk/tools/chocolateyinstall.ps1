@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'; # stop on all errors
+$ErrorActionPreference = 'Stop'; # stop on all errors
 
 $packageName = 'dcmtk' # arbitrary name for the package, used in messages
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
