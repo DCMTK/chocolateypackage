@@ -12,12 +12,12 @@
     </description>
     <projectUrl>https://dcmtk.org/dcmtk.php.en</projectUrl>
     <packageSourceUrl>https://github.com/DCMTK/chocolateypackage/tree/master/dcmtk</packageSourceUrl>
-    <projectSourceUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/bin/dcmtk-3.6.5-win32-dynamic.zip</projectSourceUrl>
-    <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/docs/dcmtk-3.6.5-html-help.zip</docsUrl>
+    <projectSourceUrl>https://github.com/DCMTK/dcmtk</projectSourceUrl>
+    <docsUrl>https://support.dcmtk.org/docs-365</docsUrl>
     <tags>dcmtk dicom medical</tags>
     <copyright>Copyright (C) 1994-2019, OFFIS e.V. All rights reserved.</copyright>
-    <releaseNotes>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/ANNOUNCE</releaseNotes>
-    <licenseUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/COPYRIGHT</licenseUrl>
+    <releaseNotes>https://github.com/DCMTK/dcmtk/blob/master/ANNOUNCE</releaseNotes>
+    <licenseUrl>https://github.com/DCMTK/dcmtk/blob/master/COPYRIGHT</licenseUrl>
     <dependencies>
       <dependency id="vcredist2012"/>
     </dependencies>
