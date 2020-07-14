@@ -19,7 +19,7 @@
     <releaseNotes>https://github.com/DCMTK/dcmtk/blob/master/ANNOUNCE</releaseNotes>
     <licenseUrl>https://github.com/DCMTK/dcmtk/blob/master/COPYRIGHT</licenseUrl>
     <dependencies>
-      <dependency id="vcredist2012"/>
+      <dependency id="vcredist2012" version="11.0"/>
     </dependencies>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
