@@ -3,24 +3,23 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dcmtktls</id>
-    <title>DCMTK TLS Add-On</title>
-    <version>3.6.4</version>
+    <title>DCMTK TLS</title>
+    <version>3.6.5</version>
     <authors>OFFIS e. V.</authors>
     <owners>OFFIS e. V.</owners>
     <summary>DICOM command line toolkit OpenSSL add-on</summary>
-    <description>DCMTK supports some of the DICOM security extensions and relies on the free OpenSSL toolkit for the underlying cryptographic routines and the TLS protocol implementation. The following archives contain executable binaries that have been compiled and linked with OpenSSL. Only the DCMTK tools that make use of OpenSSL are included in these archives - please also download the corresponding full binary package. Please note that the use of cryptographic algorithms is affected by legislation and patent issues in many countries - you have to make sure yourself that you are allowed to use these tools before downloading them. DCMTK is is written in a mixture of ANSI C and C++. It comes in complete source code and is made available as "open source" software.
-    </description>
+    <description>DCMTK supports some of the DICOM security extensions and relies on the free OpenSSL toolkit for the underlying cryptographic routines and the TLS protocol implementation. The following archives contain executable binaries that have been compiled and linked with OpenSSL. Only the DCMTK tools that make use of OpenSSL are included in these archives - please also download the corresponding full binary package. Please note that the use of cryptographic algorithms is affected by legislation and patent issues in many countries - you have to make sure yourself that you are allowed to use these tools before downloading them. DCMTK is is written in a mixture of ANSI C and C++. It comes in complete source code and is made available as "open source" software.</description>
     <projectUrl>https://dcmtk.org/dcmtk.php.en</projectUrl>
     <packageSourceUrl>https://github.com/DCMTK/chocolateypackage/tree/master/dcmtktls</packageSourceUrl>
-    <projectSourceUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/dcmtk364/bin/dcmtk-3.6.4-win32-dynamic-tls.zip</projectSourceUrl>
-    <docsUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/docs/dcmtk-3.6.4-html-help.zip</docsUrl>
-    <tags>dcmtk dicom medical tls</tags>
-    <copyright>Copyright (C) 1994-2018, OFFIS e.V. All rights reserved.</copyright>
-    <releaseNotes>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/ANNOUNCE</releaseNotes>
-    <licenseUrl>ftp://dicom.offis.de/pub/dicom/offis/software/dcmtk/release/COPYRIGHT</licenseUrl>
+    <projectSourceUrl>https://github.com/DCMTK/dcmtk</projectSourceUrl>
+    <docsUrl>https://support.dcmtk.org/docs-365</docsUrl>
+    <tags>dcmtk dicom medical tls openssl</tags>
+    <copyright>Copyright (C) 1994-2019, OFFIS e.V. All rights reserved.</copyright>
+    <releaseNotes>https://github.com/DCMTK/dcmtk/blob/master/ANNOUNCE</releaseNotes>
+    <licenseUrl>https://github.com/DCMTK/dcmtk/blob/master/COPYRIGHT</licenseUrl>
     <dependencies>
-      <dependency id="vcredist2012"/>
-      <dependency id="dcmtk"/>
+      <dependency id="vcredist2012" version="11.0"/>
+      <dependency id="openssl" version="1.1.1.3"/>
     </dependencies> 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
