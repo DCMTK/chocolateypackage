@@ -1,7 +1,7 @@
 $packageName = 'dcmtk'
 
-$zipFileName = 'dcmtk-3.6.5-win32-dynamic.zip'
-$zipFileName64 = 'dcmtk-3.6.5-win64-dynamic.zip'
+$zipFileName = 'dcmtk-3.6.6-win32-chocolatey.zip'
+$zipFileName64 = 'dcmtk-3.6.6-win64-chocolatey.zip'
 $os = Get-WmiObject -Class Win32_OperatingSystem;
 
 # Only necessary if you did not unpack to package directory - see https://chocolatey.org/docs/helpers-uninstall-chocolatey-zip-package

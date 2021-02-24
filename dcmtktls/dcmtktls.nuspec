@@ -4,7 +4,7 @@
   <metadata>
     <id>dcmtktls</id>
     <title>DCMTK TLS</title>
-    <version>3.6.5</version>
+    <version>3.6.6</version>
     <authors>OFFIS e. V.</authors>
     <owners>OFFIS e. V.</owners>
     <summary>DICOM command line toolkit OpenSSL add-on</summary>
@@ -12,9 +12,9 @@
     <projectUrl>https://dcmtk.org/dcmtk.php.en</projectUrl>
     <packageSourceUrl>https://github.com/DCMTK/chocolateypackage/tree/master/dcmtktls</packageSourceUrl>
     <projectSourceUrl>https://github.com/DCMTK/dcmtk</projectSourceUrl>
-    <docsUrl>https://support.dcmtk.org/docs-365</docsUrl>
+    <docsUrl>https://support.dcmtk.org/docs-366</docsUrl>
     <tags>dcmtk dicom medical tls openssl</tags>
-    <copyright>Copyright (C) 1994-2019, OFFIS e.V. All rights reserved.</copyright>
+    <copyright>Copyright (C) 1994-2021, OFFIS e.V. All rights reserved.</copyright>
     <releaseNotes>https://github.com/DCMTK/dcmtk/blob/master/ANNOUNCE</releaseNotes>
     <licenseUrl>https://github.com/DCMTK/dcmtk/blob/master/COPYRIGHT</licenseUrl>
     <dependencies>
