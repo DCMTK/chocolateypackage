@@ -4,7 +4,7 @@
   <metadata>
     <id>dcmtk</id>
     <title>DCMTK - DICOM Toolkit</title>
-    <version>3.6.7</version>
+    <version>3.6.7.1</version>
     <authors>OFFIS e. V.</authors>
     <owners>OFFIS e. V.</owners>
     <summary>DICOM command line toolkit</summary>
