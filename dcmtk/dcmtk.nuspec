@@ -4,20 +4,20 @@
   <metadata>
     <id>dcmtk</id>
     <title>DCMTK - DICOM Toolkit</title>
-    <version>3.6.7.1</version>
+    <version>3.6.8</version>
     <authors>OFFIS e. V.</authors>
     <owners>OFFIS e. V.</owners>
     <summary>DICOM command line toolkit</summary>
     <description>DCMTK is a collection of libraries and applications implementing large parts the DICOM standard.  It includes software for examining, constructing and converting DICOM image files, handling offline media, sending and receiving images over a network connection, as well as demonstrative image storage and worklist servers. DCMTK is is written in a mixture of ANSI C and C++. It comes in complete source code and is made available as "open source" software.
     </description>
-    <projectUrl>https://dcmtk.org/dcmtk.php.en</projectUrl>
+    <projectUrl>https://dcmtk.org/en/dcmtk/</projectUrl>
     <packageSourceUrl>https://github.com/DCMTK/chocolateypackage/tree/master/dcmtk</packageSourceUrl>
     <projectSourceUrl>https://github.com/DCMTK/dcmtk</projectSourceUrl>
-    <docsUrl>https://support.dcmtk.org/docs-367</docsUrl>
+    <docsUrl>https://support.dcmtk.org/docs-368</docsUrl>
     <tags>dcmtk dicom medical</tags>
-    <copyright>Copyright (C) 1994-2022, OFFIS e.V. All rights reserved.</copyright>
-    <releaseNotes>https://www.dcmtk.org/download/dcmtk/dcmtk367/ANNOUNCE</releaseNotes>
-    <licenseUrl>https://www.dcmtk.org/download/dcmtk/dcmtk367/COPYRIGHT</licenseUrl>
+    <copyright>Copyright (C) 1994-2023, OFFIS e.V. All rights reserved.</copyright>
+    <releaseNotes>https://www.dcmtk.org/download/dcmtk/dcmtk368/ANNOUNCE</releaseNotes>
+    <licenseUrl>https://www.dcmtk.org/download/dcmtk/dcmtk368/COPYRIGHT</licenseUrl>
     <dependencies>
       <dependency id="vcredist2017" version="14.16.27033"/>
     </dependencies>
