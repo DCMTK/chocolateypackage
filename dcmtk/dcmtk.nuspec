@@ -4,7 +4,7 @@
   <metadata>
     <id>dcmtk</id>
     <title>DCMTK - DICOM Toolkit</title>
-    <version>3.6.9</version>
+    <version>3.7.0</version>
     <authors>OFFIS e. V.</authors>
     <owners>OFFIS e. V.</owners>
     <summary>DICOM command line toolkit</summary>
@@ -13,13 +13,13 @@
     <projectUrl>https://dcmtk.org/en/dcmtk/</projectUrl>
     <packageSourceUrl>https://github.com/DCMTK/chocolateypackage/tree/master/dcmtk</packageSourceUrl>
     <projectSourceUrl>https://github.com/DCMTK/dcmtk</projectSourceUrl>
-    <docsUrl>https://support.dcmtk.org/docs-369</docsUrl>
+    <docsUrl>https://support.dcmtk.org/docs-370</docsUrl>
     <tags>dcmtk dicom medical</tags>
     <copyright>Copyright (C) 1994-2024, OFFIS e.V. All rights reserved.</copyright>
-    <releaseNotes>https://www.dcmtk.org/download/dcmtk/dcmtk369/ANNOUNCE</releaseNotes>
-    <licenseUrl>https://www.dcmtk.org/download/dcmtk/dcmtk369/COPYRIGHT</licenseUrl>
+    <releaseNotes>https://www.dcmtk.org/download/dcmtk/dcmtk370/ANNOUNCE</releaseNotes>
+    <licenseUrl>https://www.dcmtk.org/download/dcmtk/dcmtk370/COPYRIGHT</licenseUrl>
     <dependencies>
-      <dependency id="vcredist2017" version="14.16.27033"/>
+      <dependency id="vcredist2017" version="14.16.27052"/>
     </dependencies>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
